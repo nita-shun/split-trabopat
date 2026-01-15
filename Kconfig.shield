@@ -1,0 +1,4 @@
+config SHIELD_SPLIT_TRABOPAT_LEFT
+    def_bool $(shields_list_contains,split_trabopat_left)
+config SHIELD_SPLIT_TRABOPAT_RIGHT
+    def_bool $(shields_list_contains,split_trabopat_right)

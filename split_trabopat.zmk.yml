@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: split_trabopat
+name: split_trabopat
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - split_trabopat_left
+  - split_trabopat_right

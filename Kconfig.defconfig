@@ -1,0 +1,14 @@
+
+if SHIELD_SPLIT_TRABOPAT_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "split_trabopat"
+
+endif
+
+if SHIELD_SPLIT_TRABOPAT_LEFT || SHIELD_SPLIT_TRABOPAT_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
